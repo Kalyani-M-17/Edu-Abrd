@@ -1,0 +1,285 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+h1 {
+    color: rgb(36, 36, 184);
+    margin-right: 300px;
+    font-weight: 780;
+}
+
+ul li {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+.us {
+    font-weight: 600;
+}
+/* .picture {
+     width: 1470px;
+
+     height: 250px;
+     
+} */
+img{
+    /* opacity: 0.5; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+.sam{
+    width: 100%;
+    height: 300px;
+    /* overflow: hidden; */
+    /* background-color: aqua; */
+}
+
+.about {
+    margin-left: 80px;
+    /* background-color: antiquewhite; */
+}
+
+.about h1 {
+    color: rgb(10, 10, 86);
+    font-weight: 600;
+}
+
+.about p {
+    color: rgb(103, 81, 81);
+    font-weight: 100;
+    margin-right: 80px;
+    line-height: 175%;
+    text-align: justify;
+}
+
+.missionvision {
+    display: flex;
+    background-color: rgb(10, 10, 86);
+    margin-top: 60px;
+    padding-left: 80px;
+    padding-right: 30px;
+}
+
+.mv h1,p{
+    color: antiquewhite;
+}
+
+.mv p {
+    padding-right: 60px;
+    font-weight: 100;
+    line-height: 175%;
+    text-align: justify;
+}
+
+.team {
+    text-align: center;
+    /* background-color: aquamarine; */
+    margin-top: 60px;
+    /* background-color: bisque; */
+}
+
+.team h1 {
+    color:  rgb(10, 10, 86);
+    /* margin-left: 280px; */
+    margin-right: 0;
+    /* background-color: aqua; */
+    font-weight: 800;
+}
+
+.team p{
+    color: rgb(103, 81, 81);
+    line-height: 125%;
+}
+
+.members {
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+   /* margin-left: 240px; */
+   /* background-color: blueviolet; */
+   justify-content: center;
+}
+
+.ice img {
+    width: 300px;
+    height: 350px;
+}
+
+.ice h2 {
+    font-size: large;
+    font-weight: 600;
+}
+ 
+#span {
+    font-weight: 100;
+    font-size: medium;
+}
+
+.body {
+    height: 800px;
+    /* width: 100%; */
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    /* opacity: 0.7; */
+    /* margin-top: 60px; */
+    display: flex;
+    /* justify-content: space-around; */
+    
+    
+}
+
+.body h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    /* opacity: 1; */
+    /* background-color: aqua; */
+    /* margin-left: 50px; */
+    margin: 0;
+    
+}
+
+.form {
+    background-color: azure;
+    width: 100%;
+    flex: 1 1 0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.form h2,label {
+    color: rgb(10, 10, 86);
+}
+
+#span2{
+    font-weight: 100;
+    font-size: medium;
+    color: rgb(103, 81, 81);
+}
+
+.form select{
+    color: rgb(103, 81, 81);
+}
+
+.words {
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 0;
+    /* padding-top: 200px; */
+    /* padding-left: 20px; */
+}
+
+.input {
+    display: grid;
+    
+}
+
+.register-form{
+    display: grid;
+    gap: 20px;
+}
+
+.name {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.input input,select{
+    padding: 8px;
+}
+
+.query {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+#button{
+    padding: 10px 20px;
+    background-color: rgb(10, 10, 86);
+    color: azure;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 100px;
+
+}
+
+.total {
+    display: flex;
+    gap: 80px;
+    
+}
+
+.lists ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.lists ul li a {
+    /* font-weight: 100; */
+    color:  rgb(10, 10, 86);
+}
+
+.bold {
+    color:  rgb(10, 10, 86);
+    font-size: large;
+    font-weight: bolder;
+}
+
+.footer h1 {
+    font-weight: bolder;
+
+}
+
+.footer p {
+    color: rgb(103, 81, 81) ;
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(103, 81, 81) ;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.copy img {
+    height: 20px;
+    width: 20px;
+}
